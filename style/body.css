@@ -1,0 +1,176 @@
+.header{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Charan{
+ 
+  margin-left: 30px;
+  font-size: 60px;
+  color: rgba(19, 191, 77, 0.653);
+  font-weight: bolder;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.info-link{
+  margin-right: 50px;
+  display: flex;
+ 
+
+}
+
+
+.info-link:hover{
+  font-size: 18px;
+  transition: font-size 0.2s;
+}
+
+.github{
+  height: 20px;
+  border-radius: 12px;
+  margin-right: 4px;
+  margin-top: 1.5px;
+}
+
+.linkedin{
+  height: 20px;
+  margin-right: 4px;
+  margin-top: 2px;
+
+}
+
+.mail{
+  height: 20px;
+  margin-right: 4px;
+  margin-top: 2px;
+
+}
+
+
+
+
+a:link{
+  color: white;
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: blue;
+}
+
+
+body{
+  background-color: rgb(12, 2, 29);
+  
+}
+
+.hello1{
+  display: inline;
+  font-family: Nerko One, Arial;
+  
+}
+
+
+.hello{
+  color: wheat;
+  font-size: large;
+  font-size: 70px;
+  margin-left: 20px;
+  margin-top: 30px;
+
+}
+
+.about{
+  color: white;
+  display: flex;
+  margin-left: 100px;
+  margin-right: 200px;
+  justify-content: center;
+  font-family: cursive;
+  font-size: 20px;
+  margin-top: -70px;
+  border: solid gray 2px;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.about:hover{
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+.sidebar{
+  
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  position: fixed;
+  background-color: rgb(9, 2, 26);
+  border-radius: 25px;
+  border: solid gray;
+  margin-top: -420px;
+  
+}
+
+
+.sidebar-link{
+  justify-content: right;
+  margin-right: 10px;
+  color: white;
+  margin-bottom: 35px;
+  font-size: 20px;
+  font-family:cursive;
+  padding: 20px;
+ 
+}
+
+.sidebar-link:hover{
+  font-size: 22px;
+}
+
+
+.skills{
+  color: white;
+  font-size: 25px;
+  border-radius:20px;
+  border-top: solid white 4px;
+  margin-top: 20px;
+  margin-left: 10px;
+
+}
+
+.skills-what{
+  color: white; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  margin-left: 10px;
+  border-bottom: solid white 4px;
+  border-radius: 20px;
+}
+
+.button{
+
+padding: 1px;
+border-style:inset;
+border-radius: 10px;
+padding: 5px;
+margin-right: 140px;
+border-color: rgb(75, 247, 101);
+
+}

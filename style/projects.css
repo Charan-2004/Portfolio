@@ -1,0 +1,47 @@
+body{
+  background-color: rgb(11, 2, 29);
+}
+.head{
+  font-size: 45px;
+  text-align: center;
+  color: rgb(250, 180, 180);
+}
+
+
+a:link{
+  color: white;
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+}
+
+
+.P1{
+  color: white;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.h1p1{
+  font-size: 30px;
+}
+.project1{
+  color: white;
+  margin-top: 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-bottom: 800px;
+  
+  
+}
+
+.project2{
+  color: white;
+  margin-top: -500px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  
+  
+}
